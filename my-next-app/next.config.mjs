@@ -1,4 +1,12 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default nextConfig;
+const nextConfig = {
+    output: 'export',
+    images: {
+      unoptimized: true,
+    },
+    basePath: '/track', // Replace 'trac' with your repository name
+    assetPrefix: '/track/' // Same as above
+  };
+  
+  module.exports = nextConfig;
+  

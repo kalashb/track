@@ -1,2 +1,0 @@
-# track
-personal-everything-tracker
